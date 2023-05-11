@@ -1,0 +1,31 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,5.99.0+really5.1.10+dfsg1-1*%
+%TF.CreationDate,2022-06-20T00:45:27+02:00*%
+%TF.ProjectId,PontHComplet_MK2,506f6e74-4843-46f6-9d70-6c65745f4d4b,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Legend,Bot*%
+%TF.FilePolarity,Positive*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 5.99.0+really5.1.10+dfsg1-1) date 2022-06-20 00:45:27*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%ADD10C,0.203200*%
+%ADD11C,0.152400*%
+G04 APERTURE END LIST*
+D10*
+%TO.C,H2*%
+X158500000Y-81000000D02*
+G75*
+G03*
+X158500000Y-81000000I-1500000J0D01*
+G01*
+D11*
+X159921000Y-81000000D02*
+G75*
+G03*
+X159921000Y-81000000I-2921000J0D01*
+G01*
+%TD*%
+M02*
