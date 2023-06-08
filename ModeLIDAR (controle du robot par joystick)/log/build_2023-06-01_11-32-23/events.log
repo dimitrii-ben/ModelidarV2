@@ -1,0 +1,135 @@
+[0.000000] (-) TimerEvent: {}
+[0.002222] (communication_to_stm) JobQueued: {'identifier': 'communication_to_stm', 'dependencies': OrderedDict()}
+[0.002562] (joy_node) JobQueued: {'identifier': 'joy_node', 'dependencies': OrderedDict()}
+[0.002597] (rasberry) JobQueued: {'identifier': 'rasberry', 'dependencies': OrderedDict()}
+[0.002612] (communication_to_stm) JobStarted: {'identifier': 'communication_to_stm'}
+[0.021214] (joy_node) JobStarted: {'identifier': 'joy_node'}
+[0.099777] (-) TimerEvent: {}
+[0.200206] (-) TimerEvent: {}
+[0.305492] (-) TimerEvent: {}
+[0.406104] (-) TimerEvent: {}
+[0.506765] (-) TimerEvent: {}
+[0.607844] (-) TimerEvent: {}
+[0.708326] (-) TimerEvent: {}
+[0.809142] (-) TimerEvent: {}
+[0.909524] (-) TimerEvent: {}
+[1.009878] (-) TimerEvent: {}
+[1.110149] (-) TimerEvent: {}
+[1.210546] (-) TimerEvent: {}
+[1.248833] (joy_node) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/joy_node', 'build', '--build-base', '/home/user/modelidar/build/joy_node/build', 'install', '--record', '/home/user/modelidar/build/joy_node/install.log', '--single-version-externally-managed'], 'cwd': '/home/user/modelidar/src/joy_node', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'user', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/user', 'OLDPWD': '/home/user/modelidar/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '973', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/humble/', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'user', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'user', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/user-VirtualBox:@/tmp/.ICE-unix/948,unix/user-VirtualBox:/tmp/.ICE-unix/948', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/0a1ca9d3_c34b_4cf6_80c8_b888f61371c7', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'fr_FR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.I9K051', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.336', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/user/modelidar/build/joy_node', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/user/modelidar/build/joy_node/prefix_override:/home/user/modelidar/install/joy_node/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.257547] (communication_to_stm) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/communication_to_stm', 'build', '--build-base', '/home/user/modelidar/build/communication_to_stm/build', 'install', '--record', '/home/user/modelidar/build/communication_to_stm/install.log', '--single-version-externally-managed'], 'cwd': '/home/user/modelidar/src/communication_to_stm', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'user', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/user', 'OLDPWD': '/home/user/modelidar/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '973', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/humble/', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'user', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'user', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/user-VirtualBox:@/tmp/.ICE-unix/948,unix/user-VirtualBox:/tmp/.ICE-unix/948', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/0a1ca9d3_c34b_4cf6_80c8_b888f61371c7', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'fr_FR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.I9K051', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.336', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/user/modelidar/build/communication_to_stm', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/user/modelidar/build/communication_to_stm/prefix_override:/home/user/modelidar/install/communication_to_stm/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.310679] (-) TimerEvent: {}
+[1.411093] (-) TimerEvent: {}
+[1.510665] (joy_node) StdoutLine: {'line': b'running egg_info\n'}
+[1.511187] (-) TimerEvent: {}
+[1.511437] (joy_node) StdoutLine: {'line': b'creating ../../build/joy_node/joy_node.egg-info\n'}
+[1.512135] (joy_node) StdoutLine: {'line': b'writing ../../build/joy_node/joy_node.egg-info/PKG-INFO\n'}
+[1.512728] (joy_node) StdoutLine: {'line': b'writing dependency_links to ../../build/joy_node/joy_node.egg-info/dependency_links.txt\n'}
+[1.513050] (joy_node) StdoutLine: {'line': b'writing entry points to ../../build/joy_node/joy_node.egg-info/entry_points.txt\n'}
+[1.513356] (joy_node) StdoutLine: {'line': b'writing requirements to ../../build/joy_node/joy_node.egg-info/requires.txt\n'}
+[1.513616] (joy_node) StdoutLine: {'line': b'writing top-level names to ../../build/joy_node/joy_node.egg-info/top_level.txt\n'}
+[1.514059] (joy_node) StdoutLine: {'line': b"writing manifest file '../../build/joy_node/joy_node.egg-info/SOURCES.txt'\n"}
+[1.515521] (joy_node) StdoutLine: {'line': b"reading manifest file '../../build/joy_node/joy_node.egg-info/SOURCES.txt'\n"}
+[1.516217] (joy_node) StdoutLine: {'line': b"writing manifest file '../../build/joy_node/joy_node.egg-info/SOURCES.txt'\n"}
+[1.516543] (joy_node) StdoutLine: {'line': b'running build\n'}
+[1.516619] (joy_node) StdoutLine: {'line': b'running build_py\n'}
+[1.516864] (joy_node) StdoutLine: {'line': b'creating /home/user/modelidar/build/joy_node/build\n'}
+[1.517120] (joy_node) StdoutLine: {'line': b'creating /home/user/modelidar/build/joy_node/build/lib\n'}
+[1.517305] (joy_node) StdoutLine: {'line': b'creating /home/user/modelidar/build/joy_node/build/lib/joy_node\n'}
+[1.517524] (joy_node) StdoutLine: {'line': b'copying joy_node/__init__.py -> /home/user/modelidar/build/joy_node/build/lib/joy_node\n'}
+[1.517850] (joy_node) StdoutLine: {'line': b'running install\n'}
+[1.518280] (joy_node) StdoutLine: {'line': b'running install_lib\n'}
+[1.519089] (joy_node) StdoutLine: {'line': b'creating /home/user/modelidar/install/joy_node/lib/python3.10/site-packages/joy_node\n'}
+[1.519277] (joy_node) StdoutLine: {'line': b'copying /home/user/modelidar/build/joy_node/build/lib/joy_node/__init__.py -> /home/user/modelidar/install/joy_node/lib/python3.10/site-packages/joy_node\n'}
+[1.519770] (joy_node) StdoutLine: {'line': b'byte-compiling /home/user/modelidar/install/joy_node/lib/python3.10/site-packages/joy_node/__init__.py to __init__.cpython-310.pyc\n'}
+[1.520071] (joy_node) StdoutLine: {'line': b'running install_data\n'}
+[1.520648] (joy_node) StdoutLine: {'line': b'creating /home/user/modelidar/install/joy_node/share/ament_index\n'}
+[1.520873] (joy_node) StdoutLine: {'line': b'creating /home/user/modelidar/install/joy_node/share/ament_index/resource_index\n'}
+[1.521073] (joy_node) StdoutLine: {'line': b'creating /home/user/modelidar/install/joy_node/share/ament_index/resource_index/packages\n'}
+[1.521311] (joy_node) StdoutLine: {'line': b'copying resource/joy_node -> /home/user/modelidar/install/joy_node/share/ament_index/resource_index/packages\n'}
+[1.521702] (joy_node) StdoutLine: {'line': b'copying package.xml -> /home/user/modelidar/install/joy_node/share/joy_node\n'}
+[1.521905] (joy_node) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.522664] (communication_to_stm) StdoutLine: {'line': b'running egg_info\n'}
+[1.523103] (communication_to_stm) StdoutLine: {'line': b'creating ../../build/communication_to_stm/communication_to_stm.egg-info\n'}
+[1.524167] (communication_to_stm) StdoutLine: {'line': b'writing ../../build/communication_to_stm/communication_to_stm.egg-info/PKG-INFO\n'}
+[1.524217] (communication_to_stm) StdoutLine: {'line': b'writing dependency_links to ../../build/communication_to_stm/communication_to_stm.egg-info/dependency_links.txt\n'}
+[1.524258] (communication_to_stm) StdoutLine: {'line': b'writing entry points to ../../build/communication_to_stm/communication_to_stm.egg-info/entry_points.txt\n'}
+[1.524298] (communication_to_stm) StdoutLine: {'line': b'writing requirements to ../../build/communication_to_stm/communication_to_stm.egg-info/requires.txt\n'}
+[1.524337] (communication_to_stm) StdoutLine: {'line': b'writing top-level names to ../../build/communication_to_stm/communication_to_stm.egg-info/top_level.txt\n'}
+[1.524375] (communication_to_stm) StdoutLine: {'line': b"writing manifest file '../../build/communication_to_stm/communication_to_stm.egg-info/SOURCES.txt'\n"}
+[1.524933] (joy_node) StdoutLine: {'line': b'Copying ../../build/joy_node/joy_node.egg-info to /home/user/modelidar/install/joy_node/lib/python3.10/site-packages/joy_node-0.0.0-py3.10.egg-info\n'}
+[1.525054] (communication_to_stm) StdoutLine: {'line': b"reading manifest file '../../build/communication_to_stm/communication_to_stm.egg-info/SOURCES.txt'\n"}
+[1.525855] (communication_to_stm) StdoutLine: {'line': b"writing manifest file '../../build/communication_to_stm/communication_to_stm.egg-info/SOURCES.txt'\n"}
+[1.525953] (communication_to_stm) StdoutLine: {'line': b'running build\n'}
+[1.526000] (communication_to_stm) StdoutLine: {'line': b'running build_py\n'}
+[1.526095] (joy_node) StdoutLine: {'line': b'running install_scripts\n'}
+[1.526282] (communication_to_stm) StdoutLine: {'line': b'creating /home/user/modelidar/build/communication_to_stm/build\n'}
+[1.526419] (communication_to_stm) StdoutLine: {'line': b'creating /home/user/modelidar/build/communication_to_stm/build/lib\n'}
+[1.526605] (communication_to_stm) StdoutLine: {'line': b'creating /home/user/modelidar/build/communication_to_stm/build/lib/communication_to_stm\n'}
+[1.526667] (communication_to_stm) StdoutLine: {'line': b'copying communication_to_stm/__init__.py -> /home/user/modelidar/build/communication_to_stm/build/lib/communication_to_stm\n'}
+[1.526922] (communication_to_stm) StdoutLine: {'line': b'running install\n'}
+[1.527307] (communication_to_stm) StdoutLine: {'line': b'running install_lib\n'}
+[1.528124] (communication_to_stm) StdoutLine: {'line': b'creating /home/user/modelidar/install/communication_to_stm/lib/python3.10/site-packages/communication_to_stm\n'}
+[1.528326] (communication_to_stm) StdoutLine: {'line': b'copying /home/user/modelidar/build/communication_to_stm/build/lib/communication_to_stm/__init__.py -> /home/user/modelidar/install/communication_to_stm/lib/python3.10/site-packages/communication_to_stm\n'}
+[1.528831] (communication_to_stm) StdoutLine: {'line': b'byte-compiling /home/user/modelidar/install/communication_to_stm/lib/python3.10/site-packages/communication_to_stm/__init__.py to __init__.cpython-310.pyc\n'}
+[1.529110] (communication_to_stm) StdoutLine: {'line': b'running install_data\n'}
+[1.529666] (communication_to_stm) StdoutLine: {'line': b'creating /home/user/modelidar/install/communication_to_stm/share/ament_index\n'}
+[1.529740] (communication_to_stm) StdoutLine: {'line': b'creating /home/user/modelidar/install/communication_to_stm/share/ament_index/resource_index\n'}
+[1.529920] (communication_to_stm) StdoutLine: {'line': b'creating /home/user/modelidar/install/communication_to_stm/share/ament_index/resource_index/packages\n'}
+[1.530093] (communication_to_stm) StdoutLine: {'line': b'copying resource/communication_to_stm -> /home/user/modelidar/install/communication_to_stm/share/ament_index/resource_index/packages\n'}
+[1.530293] (communication_to_stm) StdoutLine: {'line': b'copying package.xml -> /home/user/modelidar/install/communication_to_stm/share/communication_to_stm\n'}
+[1.530480] (communication_to_stm) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.532427] (communication_to_stm) StdoutLine: {'line': b'Copying ../../build/communication_to_stm/communication_to_stm.egg-info to /home/user/modelidar/install/communication_to_stm/lib/python3.10/site-packages/communication_to_stm-0.0.0-py3.10.egg-info\n'}
+[1.535599] (communication_to_stm) StdoutLine: {'line': b'running install_scripts\n'}
+[1.553274] (joy_node) StdoutLine: {'line': b"writing list of installed files to '/home/user/modelidar/build/joy_node/install.log'\n"}
+[1.558778] (communication_to_stm) StdoutLine: {'line': b"writing list of installed files to '/home/user/modelidar/build/communication_to_stm/install.log'\n"}
+[1.587673] (joy_node) CommandEnded: {'returncode': 0}
+[1.611571] (-) TimerEvent: {}
+[1.612155] (joy_node) JobEnded: {'identifier': 'joy_node', 'rc': 0}
+[1.612699] (rasberry) JobStarted: {'identifier': 'rasberry'}
+[1.625757] (communication_to_stm) CommandEnded: {'returncode': 0}
+[1.630571] (communication_to_stm) JobEnded: {'identifier': 'communication_to_stm', 'rc': 0}
+[1.714037] (-) TimerEvent: {}
+[1.815052] (-) TimerEvent: {}
+[1.915256] (-) TimerEvent: {}
+[2.017912] (-) TimerEvent: {}
+[2.118293] (-) TimerEvent: {}
+[2.219177] (-) TimerEvent: {}
+[2.289776] (rasberry) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/rasberry', 'build', '--build-base', '/home/user/modelidar/build/rasberry/build', 'install', '--record', '/home/user/modelidar/build/rasberry/install.log', '--single-version-externally-managed'], 'cwd': '/home/user/modelidar/src/rasberry', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'user', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/user', 'OLDPWD': '/home/user/modelidar/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '973', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/humble/', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'user', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'user', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/user-VirtualBox:@/tmp/.ICE-unix/948,unix/user-VirtualBox:/tmp/.ICE-unix/948', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/0a1ca9d3_c34b_4cf6_80c8_b888f61371c7', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'fr_FR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.I9K051', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.336', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/user/modelidar/build/rasberry', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/user/modelidar/build/rasberry/prefix_override:/home/user/modelidar/install/rasberry/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[2.319344] (-) TimerEvent: {}
+[2.419738] (-) TimerEvent: {}
+[2.492743] (rasberry) StdoutLine: {'line': b'running egg_info\n'}
+[2.492983] (rasberry) StdoutLine: {'line': b'creating ../../build/rasberry/rasberry.egg-info\n'}
+[2.493559] (rasberry) StdoutLine: {'line': b'writing ../../build/rasberry/rasberry.egg-info/PKG-INFO\n'}
+[2.493884] (rasberry) StdoutLine: {'line': b'writing dependency_links to ../../build/rasberry/rasberry.egg-info/dependency_links.txt\n'}
+[2.494171] (rasberry) StdoutLine: {'line': b'writing entry points to ../../build/rasberry/rasberry.egg-info/entry_points.txt\n'}
+[2.494276] (rasberry) StdoutLine: {'line': b'writing requirements to ../../build/rasberry/rasberry.egg-info/requires.txt\n'}
+[2.494478] (rasberry) StdoutLine: {'line': b'writing top-level names to ../../build/rasberry/rasberry.egg-info/top_level.txt\n'}
+[2.494731] (rasberry) StdoutLine: {'line': b"writing manifest file '../../build/rasberry/rasberry.egg-info/SOURCES.txt'\n"}
+[2.496005] (rasberry) StdoutLine: {'line': b"reading manifest file '../../build/rasberry/rasberry.egg-info/SOURCES.txt'\n"}
+[2.496560] (rasberry) StdoutLine: {'line': b"writing manifest file '../../build/rasberry/rasberry.egg-info/SOURCES.txt'\n"}
+[2.496725] (rasberry) StdoutLine: {'line': b'running build\n'}
+[2.496812] (rasberry) StdoutLine: {'line': b'running build_py\n'}
+[2.496900] (rasberry) StdoutLine: {'line': b'creating /home/user/modelidar/build/rasberry/build\n'}
+[2.496979] (rasberry) StdoutLine: {'line': b'creating /home/user/modelidar/build/rasberry/build/lib\n'}
+[2.497053] (rasberry) StdoutLine: {'line': b'creating /home/user/modelidar/build/rasberry/build/lib/rasberry\n'}
+[2.497128] (rasberry) StdoutLine: {'line': b'copying rasberry/__init__.py -> /home/user/modelidar/build/rasberry/build/lib/rasberry\n'}
+[2.497397] (rasberry) StdoutLine: {'line': b'running install\n'}
+[2.497629] (rasberry) StdoutLine: {'line': b'running install_lib\n'}
+[2.498358] (rasberry) StdoutLine: {'line': b'creating /home/user/modelidar/install/rasberry/lib/python3.10/site-packages/rasberry\n'}
+[2.498440] (rasberry) StdoutLine: {'line': b'copying /home/user/modelidar/build/rasberry/build/lib/rasberry/__init__.py -> /home/user/modelidar/install/rasberry/lib/python3.10/site-packages/rasberry\n'}
+[2.498696] (rasberry) StdoutLine: {'line': b'byte-compiling /home/user/modelidar/install/rasberry/lib/python3.10/site-packages/rasberry/__init__.py to __init__.cpython-310.pyc\n'}
+[2.498851] (rasberry) StdoutLine: {'line': b'running install_data\n'}
+[2.499212] (rasberry) StdoutLine: {'line': b'creating /home/user/modelidar/install/rasberry/share/ament_index\n'}
+[2.499454] (rasberry) StdoutLine: {'line': b'creating /home/user/modelidar/install/rasberry/share/ament_index/resource_index\n'}
+[2.499538] (rasberry) StdoutLine: {'line': b'creating /home/user/modelidar/install/rasberry/share/ament_index/resource_index/packages\n'}
+[2.499600] (rasberry) StdoutLine: {'line': b'copying resource/rasberry -> /home/user/modelidar/install/rasberry/share/ament_index/resource_index/packages\n'}
+[2.499664] (rasberry) StdoutLine: {'line': b'copying package.xml -> /home/user/modelidar/install/rasberry/share/rasberry\n'}
+[2.499724] (rasberry) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.501243] (rasberry) StdoutLine: {'line': b'Copying ../../build/rasberry/rasberry.egg-info to /home/user/modelidar/install/rasberry/lib/python3.10/site-packages/rasberry-0.0.0-py3.10.egg-info\n'}
+[2.504225] (rasberry) StdoutLine: {'line': b'running install_scripts\n'}
+[2.519402] (rasberry) StdoutLine: {'line': b"writing list of installed files to '/home/user/modelidar/build/rasberry/install.log'\n"}
+[2.519988] (-) TimerEvent: {}
+[2.555231] (rasberry) CommandEnded: {'returncode': 0}
+[2.558591] (rasberry) JobEnded: {'identifier': 'rasberry', 'rc': 0}
+[2.559461] (-) EventReactorShutdown: {}

@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/rasberry/rasberry.egg-info/PKG-INFO
+../../build/rasberry/rasberry.egg-info/SOURCES.txt
+../../build/rasberry/rasberry.egg-info/dependency_links.txt
+../../build/rasberry/rasberry.egg-info/entry_points.txt
+../../build/rasberry/rasberry.egg-info/requires.txt
+../../build/rasberry/rasberry.egg-info/top_level.txt
+../../build/rasberry/rasberry.egg-info/zip-safe
+rasberry/__init__.py
+rasberry/rasberry.py
+resource/rasberry
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

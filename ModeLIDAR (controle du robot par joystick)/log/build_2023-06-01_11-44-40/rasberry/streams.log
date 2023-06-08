@@ -1,0 +1,23 @@
+[1.020s] Invoking command in '/home/user/modelidar/src/rasberry': PYTHONPATH=/home/user/modelidar/build/rasberry/prefix_override:/home/user/modelidar/install/rasberry/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rasberry build --build-base /home/user/modelidar/build/rasberry/build install --record /home/user/modelidar/build/rasberry/install.log --single-version-externally-managed
+[1.295s] running egg_info
+[1.297s] writing ../../build/rasberry/rasberry.egg-info/PKG-INFO
+[1.298s] writing dependency_links to ../../build/rasberry/rasberry.egg-info/dependency_links.txt
+[1.299s] writing entry points to ../../build/rasberry/rasberry.egg-info/entry_points.txt
+[1.299s] writing requirements to ../../build/rasberry/rasberry.egg-info/requires.txt
+[1.300s] writing top-level names to ../../build/rasberry/rasberry.egg-info/top_level.txt
+[1.302s] reading manifest file '../../build/rasberry/rasberry.egg-info/SOURCES.txt'
+[1.303s] writing manifest file '../../build/rasberry/rasberry.egg-info/SOURCES.txt'
+[1.329s] running build
+[1.330s] running build_py
+[1.332s] copying rasberry/rasberry.py -> /home/user/modelidar/build/rasberry/build/lib/rasberry
+[1.333s] running install
+[1.333s] running install_lib
+[1.335s] copying /home/user/modelidar/build/rasberry/build/lib/rasberry/rasberry.py -> /home/user/modelidar/install/rasberry/lib/python3.10/site-packages/rasberry
+[1.337s] byte-compiling /home/user/modelidar/install/rasberry/lib/python3.10/site-packages/rasberry/rasberry.py to rasberry.cpython-310.pyc
+[1.337s] running install_data
+[1.339s] running install_egg_info
+[1.341s] removing '/home/user/modelidar/install/rasberry/lib/python3.10/site-packages/rasberry-0.0.0-py3.10.egg-info' (and everything under it)
+[1.341s] Copying ../../build/rasberry/rasberry.egg-info to /home/user/modelidar/install/rasberry/lib/python3.10/site-packages/rasberry-0.0.0-py3.10.egg-info
+[1.342s] running install_scripts
+[1.362s] writing list of installed files to '/home/user/modelidar/build/rasberry/install.log'
+[1.408s] Invoked command in '/home/user/modelidar/src/rasberry' returned '0': PYTHONPATH=/home/user/modelidar/build/rasberry/prefix_override:/home/user/modelidar/install/rasberry/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rasberry build --build-base /home/user/modelidar/build/rasberry/build install --record /home/user/modelidar/build/rasberry/install.log --single-version-externally-managed

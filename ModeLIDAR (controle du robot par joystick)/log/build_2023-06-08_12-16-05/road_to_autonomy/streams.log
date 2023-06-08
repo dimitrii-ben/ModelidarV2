@@ -1,0 +1,24 @@
+[0.750s] Invoking command in '/home/user/modelidar/src/road_to_autonomy': PYTHONPATH=/home/user/modelidar/build/road_to_autonomy/prefix_override:/home/user/modelidar/install/road_to_autonomy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/road_to_autonomy build --build-base /home/user/modelidar/build/road_to_autonomy/build install --record /home/user/modelidar/build/road_to_autonomy/install.log --single-version-externally-managed
+[1.015s] running egg_info
+[1.017s] writing ../../build/road_to_autonomy/road_to_autonomy.egg-info/PKG-INFO
+[1.020s] writing dependency_links to ../../build/road_to_autonomy/road_to_autonomy.egg-info/dependency_links.txt
+[1.021s] writing entry points to ../../build/road_to_autonomy/road_to_autonomy.egg-info/entry_points.txt
+[1.022s] writing requirements to ../../build/road_to_autonomy/road_to_autonomy.egg-info/requires.txt
+[1.022s] writing top-level names to ../../build/road_to_autonomy/road_to_autonomy.egg-info/top_level.txt
+[1.028s] reading manifest file '../../build/road_to_autonomy/road_to_autonomy.egg-info/SOURCES.txt'
+[1.030s] writing manifest file '../../build/road_to_autonomy/road_to_autonomy.egg-info/SOURCES.txt'
+[1.030s] running build
+[1.031s] running build_py
+[1.033s] copying road_to_autonomy/computer_node.py -> /home/user/modelidar/build/road_to_autonomy/build/lib/road_to_autonomy
+[1.035s] running install
+[1.036s] running install_lib
+[1.038s] copying /home/user/modelidar/build/road_to_autonomy/build/lib/road_to_autonomy/computer_node.py -> /home/user/modelidar/install/road_to_autonomy/lib/python3.10/site-packages/road_to_autonomy
+[1.040s] byte-compiling /home/user/modelidar/install/road_to_autonomy/lib/python3.10/site-packages/road_to_autonomy/computer_node.py to computer_node.cpython-310.pyc
+[1.041s] Sorry: IndentationError: expected an indented block after 'if' statement on line 28 (computer_node.py, line 31)
+[1.042s] running install_data
+[1.043s] running install_egg_info
+[1.045s] removing '/home/user/modelidar/install/road_to_autonomy/lib/python3.10/site-packages/road_to_autonomy-0.0.0-py3.10.egg-info' (and everything under it)
+[1.058s] Copying ../../build/road_to_autonomy/road_to_autonomy.egg-info to /home/user/modelidar/install/road_to_autonomy/lib/python3.10/site-packages/road_to_autonomy-0.0.0-py3.10.egg-info
+[1.061s] running install_scripts
+[1.085s] writing list of installed files to '/home/user/modelidar/build/road_to_autonomy/install.log'
+[1.118s] Invoked command in '/home/user/modelidar/src/road_to_autonomy' returned '0': PYTHONPATH=/home/user/modelidar/build/road_to_autonomy/prefix_override:/home/user/modelidar/install/road_to_autonomy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/road_to_autonomy build --build-base /home/user/modelidar/build/road_to_autonomy/build install --record /home/user/modelidar/build/road_to_autonomy/install.log --single-version-externally-managed

@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/rasberry/rasberry.egg-info
+writing ../../build/rasberry/rasberry.egg-info/PKG-INFO
+writing dependency_links to ../../build/rasberry/rasberry.egg-info/dependency_links.txt
+writing entry points to ../../build/rasberry/rasberry.egg-info/entry_points.txt
+writing requirements to ../../build/rasberry/rasberry.egg-info/requires.txt
+writing top-level names to ../../build/rasberry/rasberry.egg-info/top_level.txt
+writing manifest file '../../build/rasberry/rasberry.egg-info/SOURCES.txt'
+reading manifest file '../../build/rasberry/rasberry.egg-info/SOURCES.txt'
+writing manifest file '../../build/rasberry/rasberry.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/user/modelidar/build/rasberry/build
+creating /home/user/modelidar/build/rasberry/build/lib
+creating /home/user/modelidar/build/rasberry/build/lib/rasberry
+copying rasberry/__init__.py -> /home/user/modelidar/build/rasberry/build/lib/rasberry
+running install
+running install_lib
+creating /home/user/modelidar/install/rasberry/lib/python3.10/site-packages/rasberry
+copying /home/user/modelidar/build/rasberry/build/lib/rasberry/__init__.py -> /home/user/modelidar/install/rasberry/lib/python3.10/site-packages/rasberry
+byte-compiling /home/user/modelidar/install/rasberry/lib/python3.10/site-packages/rasberry/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/user/modelidar/install/rasberry/share/ament_index
+creating /home/user/modelidar/install/rasberry/share/ament_index/resource_index
+creating /home/user/modelidar/install/rasberry/share/ament_index/resource_index/packages
+copying resource/rasberry -> /home/user/modelidar/install/rasberry/share/ament_index/resource_index/packages
+copying package.xml -> /home/user/modelidar/install/rasberry/share/rasberry
+running install_egg_info
+Copying ../../build/rasberry/rasberry.egg-info to /home/user/modelidar/install/rasberry/lib/python3.10/site-packages/rasberry-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/user/modelidar/build/rasberry/install.log'

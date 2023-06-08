@@ -1,0 +1,33 @@
+[1.256s] Invoking command in '/home/user/modelidar/src/communication_to_stm': PYTHONPATH=/home/user/modelidar/build/communication_to_stm/prefix_override:/home/user/modelidar/install/communication_to_stm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/communication_to_stm build --build-base /home/user/modelidar/build/communication_to_stm/build install --record /home/user/modelidar/build/communication_to_stm/install.log --single-version-externally-managed
+[1.520s] running egg_info
+[1.521s] creating ../../build/communication_to_stm/communication_to_stm.egg-info
+[1.522s] writing ../../build/communication_to_stm/communication_to_stm.egg-info/PKG-INFO
+[1.522s] writing dependency_links to ../../build/communication_to_stm/communication_to_stm.egg-info/dependency_links.txt
+[1.522s] writing entry points to ../../build/communication_to_stm/communication_to_stm.egg-info/entry_points.txt
+[1.522s] writing requirements to ../../build/communication_to_stm/communication_to_stm.egg-info/requires.txt
+[1.522s] writing top-level names to ../../build/communication_to_stm/communication_to_stm.egg-info/top_level.txt
+[1.522s] writing manifest file '../../build/communication_to_stm/communication_to_stm.egg-info/SOURCES.txt'
+[1.522s] reading manifest file '../../build/communication_to_stm/communication_to_stm.egg-info/SOURCES.txt'
+[1.523s] writing manifest file '../../build/communication_to_stm/communication_to_stm.egg-info/SOURCES.txt'
+[1.523s] running build
+[1.523s] running build_py
+[1.524s] creating /home/user/modelidar/build/communication_to_stm/build
+[1.524s] creating /home/user/modelidar/build/communication_to_stm/build/lib
+[1.524s] creating /home/user/modelidar/build/communication_to_stm/build/lib/communication_to_stm
+[1.524s] copying communication_to_stm/__init__.py -> /home/user/modelidar/build/communication_to_stm/build/lib/communication_to_stm
+[1.524s] running install
+[1.525s] running install_lib
+[1.526s] creating /home/user/modelidar/install/communication_to_stm/lib/python3.10/site-packages/communication_to_stm
+[1.526s] copying /home/user/modelidar/build/communication_to_stm/build/lib/communication_to_stm/__init__.py -> /home/user/modelidar/install/communication_to_stm/lib/python3.10/site-packages/communication_to_stm
+[1.526s] byte-compiling /home/user/modelidar/install/communication_to_stm/lib/python3.10/site-packages/communication_to_stm/__init__.py to __init__.cpython-310.pyc
+[1.527s] running install_data
+[1.527s] creating /home/user/modelidar/install/communication_to_stm/share/ament_index
+[1.527s] creating /home/user/modelidar/install/communication_to_stm/share/ament_index/resource_index
+[1.527s] creating /home/user/modelidar/install/communication_to_stm/share/ament_index/resource_index/packages
+[1.528s] copying resource/communication_to_stm -> /home/user/modelidar/install/communication_to_stm/share/ament_index/resource_index/packages
+[1.528s] copying package.xml -> /home/user/modelidar/install/communication_to_stm/share/communication_to_stm
+[1.528s] running install_egg_info
+[1.530s] Copying ../../build/communication_to_stm/communication_to_stm.egg-info to /home/user/modelidar/install/communication_to_stm/lib/python3.10/site-packages/communication_to_stm-0.0.0-py3.10.egg-info
+[1.533s] running install_scripts
+[1.556s] writing list of installed files to '/home/user/modelidar/build/communication_to_stm/install.log'
+[1.624s] Invoked command in '/home/user/modelidar/src/communication_to_stm' returned '0': PYTHONPATH=/home/user/modelidar/build/communication_to_stm/prefix_override:/home/user/modelidar/install/communication_to_stm/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/communication_to_stm build --build-base /home/user/modelidar/build/communication_to_stm/build install --record /home/user/modelidar/build/communication_to_stm/install.log --single-version-externally-managed

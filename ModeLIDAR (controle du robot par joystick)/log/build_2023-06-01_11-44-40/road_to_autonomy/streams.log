@@ -1,0 +1,36 @@
+[0.577s] Invoking command in '/home/user/modelidar/src/road_to_autonomy': PYTHONPATH=/home/user/modelidar/build/road_to_autonomy/prefix_override:/home/user/modelidar/install/road_to_autonomy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/road_to_autonomy build --build-base /home/user/modelidar/build/road_to_autonomy/build install --record /home/user/modelidar/build/road_to_autonomy/install.log --single-version-externally-managed
+[0.787s] running egg_info
+[0.788s] creating ../../build/road_to_autonomy/road_to_autonomy.egg-info
+[0.788s] writing ../../build/road_to_autonomy/road_to_autonomy.egg-info/PKG-INFO
+[0.788s] writing dependency_links to ../../build/road_to_autonomy/road_to_autonomy.egg-info/dependency_links.txt
+[0.788s] writing entry points to ../../build/road_to_autonomy/road_to_autonomy.egg-info/entry_points.txt
+[0.788s] writing requirements to ../../build/road_to_autonomy/road_to_autonomy.egg-info/requires.txt
+[0.789s] writing top-level names to ../../build/road_to_autonomy/road_to_autonomy.egg-info/top_level.txt
+[0.789s] writing manifest file '../../build/road_to_autonomy/road_to_autonomy.egg-info/SOURCES.txt'
+[0.790s] reading manifest file '../../build/road_to_autonomy/road_to_autonomy.egg-info/SOURCES.txt'
+[0.791s] writing manifest file '../../build/road_to_autonomy/road_to_autonomy.egg-info/SOURCES.txt'
+[0.791s] running build
+[0.791s] running build_py
+[0.791s] creating /home/user/modelidar/build/road_to_autonomy/build
+[0.791s] creating /home/user/modelidar/build/road_to_autonomy/build/lib
+[0.791s] creating /home/user/modelidar/build/road_to_autonomy/build/lib/road_to_autonomy
+[0.791s] copying road_to_autonomy/computer_node.py -> /home/user/modelidar/build/road_to_autonomy/build/lib/road_to_autonomy
+[0.791s] copying road_to_autonomy/__init__.py -> /home/user/modelidar/build/road_to_autonomy/build/lib/road_to_autonomy
+[0.792s] running install
+[0.792s] running install_lib
+[0.793s] creating /home/user/modelidar/install/road_to_autonomy/lib/python3.10/site-packages/road_to_autonomy
+[0.793s] copying /home/user/modelidar/build/road_to_autonomy/build/lib/road_to_autonomy/computer_node.py -> /home/user/modelidar/install/road_to_autonomy/lib/python3.10/site-packages/road_to_autonomy
+[0.793s] copying /home/user/modelidar/build/road_to_autonomy/build/lib/road_to_autonomy/__init__.py -> /home/user/modelidar/install/road_to_autonomy/lib/python3.10/site-packages/road_to_autonomy
+[0.797s] byte-compiling /home/user/modelidar/install/road_to_autonomy/lib/python3.10/site-packages/road_to_autonomy/computer_node.py to computer_node.cpython-310.pyc
+[0.797s] byte-compiling /home/user/modelidar/install/road_to_autonomy/lib/python3.10/site-packages/road_to_autonomy/__init__.py to __init__.cpython-310.pyc
+[0.797s] running install_data
+[0.798s] creating /home/user/modelidar/install/road_to_autonomy/share/ament_index
+[0.798s] creating /home/user/modelidar/install/road_to_autonomy/share/ament_index/resource_index
+[0.798s] creating /home/user/modelidar/install/road_to_autonomy/share/ament_index/resource_index/packages
+[0.798s] copying resource/road_to_autonomy -> /home/user/modelidar/install/road_to_autonomy/share/ament_index/resource_index/packages
+[0.798s] copying package.xml -> /home/user/modelidar/install/road_to_autonomy/share/road_to_autonomy
+[0.800s] running install_egg_info
+[0.800s] Copying ../../build/road_to_autonomy/road_to_autonomy.egg-info to /home/user/modelidar/install/road_to_autonomy/lib/python3.10/site-packages/road_to_autonomy-0.0.0-py3.10.egg-info
+[0.800s] running install_scripts
+[0.816s] writing list of installed files to '/home/user/modelidar/build/road_to_autonomy/install.log'
+[0.845s] Invoked command in '/home/user/modelidar/src/road_to_autonomy' returned '0': PYTHONPATH=/home/user/modelidar/build/road_to_autonomy/prefix_override:/home/user/modelidar/install/road_to_autonomy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/road_to_autonomy build --build-base /home/user/modelidar/build/road_to_autonomy/build install --record /home/user/modelidar/build/road_to_autonomy/install.log --single-version-externally-managed

@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/communication_to_stm/communication_to_stm.egg-info
+writing ../../build/communication_to_stm/communication_to_stm.egg-info/PKG-INFO
+writing dependency_links to ../../build/communication_to_stm/communication_to_stm.egg-info/dependency_links.txt
+writing entry points to ../../build/communication_to_stm/communication_to_stm.egg-info/entry_points.txt
+writing requirements to ../../build/communication_to_stm/communication_to_stm.egg-info/requires.txt
+writing top-level names to ../../build/communication_to_stm/communication_to_stm.egg-info/top_level.txt
+writing manifest file '../../build/communication_to_stm/communication_to_stm.egg-info/SOURCES.txt'
+reading manifest file '../../build/communication_to_stm/communication_to_stm.egg-info/SOURCES.txt'
+writing manifest file '../../build/communication_to_stm/communication_to_stm.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/user/modelidar/build/communication_to_stm/build
+creating /home/user/modelidar/build/communication_to_stm/build/lib
+creating /home/user/modelidar/build/communication_to_stm/build/lib/communication_to_stm
+copying communication_to_stm/__init__.py -> /home/user/modelidar/build/communication_to_stm/build/lib/communication_to_stm
+running install
+running install_lib
+creating /home/user/modelidar/install/communication_to_stm/lib/python3.10/site-packages/communication_to_stm
+copying /home/user/modelidar/build/communication_to_stm/build/lib/communication_to_stm/__init__.py -> /home/user/modelidar/install/communication_to_stm/lib/python3.10/site-packages/communication_to_stm
+byte-compiling /home/user/modelidar/install/communication_to_stm/lib/python3.10/site-packages/communication_to_stm/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/user/modelidar/install/communication_to_stm/share/ament_index
+creating /home/user/modelidar/install/communication_to_stm/share/ament_index/resource_index
+creating /home/user/modelidar/install/communication_to_stm/share/ament_index/resource_index/packages
+copying resource/communication_to_stm -> /home/user/modelidar/install/communication_to_stm/share/ament_index/resource_index/packages
+copying package.xml -> /home/user/modelidar/install/communication_to_stm/share/communication_to_stm
+running install_egg_info
+Copying ../../build/communication_to_stm/communication_to_stm.egg-info to /home/user/modelidar/install/communication_to_stm/lib/python3.10/site-packages/communication_to_stm-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/user/modelidar/build/communication_to_stm/install.log'
