@@ -1,7 +1,9 @@
 <p align="center"> <img src="logo ENSEA.png" width="25%" height="auto" /> </p>
 
 # ModéLiDAR II-Projet 1A 2023
-Reprise du projet ModéLiDAR fait en 2022 par des étudiants de l'ENSEA en 1ere année.
+> Reprise du projet ModéLiDAR fait en 2022 par des étudiants de l'ENSEA en 1ere année.
+
+L’objectif de ce projet est de contrôler un robot capable de faire de la reconnaissance de différents environnements grâce à un LiDAR intégré.
 
 ## Matériels utilisés
 - le châssis d’une voiture RC équipé d’une batterie et de quatre moteurs et d'une caméra,
@@ -15,7 +17,7 @@ Reprise du projet ModéLiDAR fait en 2022 par des étudiants de l'ENSEA en 1ere 
 ## Description de dépôt Git
 Dans ce dépôt Git vous trouverez ;
 - les fichiers KiCad de la PCB servant à alimenter les moteurs droits et gauches,
-- le code à implémenter sur la STM32 afin de générer les PWN pour les moteurs,
+- le code à implémenter sur la STM32 afin de générer les PWM pour les moteurs,
 - et le code permettant une commande à distance du ModéLiDAR à l'aide d'un joystick, il est composé de 3 noeuds
   - un nœud dédié au joystick (joy_node),
   - un nœud de communication avec la Raspberry Pi (communication_node),
