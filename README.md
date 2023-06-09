@@ -35,4 +35,4 @@ Dans ce dépôt Git vous trouverez ;
 - BARES Christophe,
 - MARTIN Alexis
 
-Plus d'informations dans le rapport de projet : [Rapport de projet](https://docs.google.com/document/d/1G-ZUsXAikZ85jQwoOplvorRcLATqSPql3EAao3XSJj0)
+Plus d'informations dans le [rapport de projet](https://docs.google.com/document/d/1G-ZUsXAikZ85jQwoOplvorRcLATqSPql3EAao3XSJj0)
