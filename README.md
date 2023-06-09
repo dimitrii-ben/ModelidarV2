@@ -14,7 +14,7 @@ L’objectif de ce projet est de contrôler un robot capable de faire de la reco
 - plusieurs cartes PCB réalisés par le groupe précédent
 
 
-## Description de dépôt Git
+## Description du dépôt Git
 Dans ce dépôt Git vous trouverez ;
 - les fichiers KiCad de la PCB servant à alimenter les moteurs droits et gauches,
 - le code à implémenter sur la STM32 afin de générer les PWM pour les moteurs,
